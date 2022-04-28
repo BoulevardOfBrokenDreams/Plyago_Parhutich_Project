@@ -14,12 +14,14 @@ namespace SecondTry
         {
             InitializeComponent();
         }
+
         private void OnButton1Clicked(object sender, System.EventArgs e)
         {
             Button button = (Button)sender;
             button.Text = "Все пиздец";
             button.BackgroundColor = Color.Green;
             this.BackgroundColor = Color.Blue;
+            label1.Text = "Залупа";
         }
 
         private void OnButton2Clicked(object sender, System.EventArgs e)
