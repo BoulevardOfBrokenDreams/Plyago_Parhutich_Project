@@ -4,9 +4,10 @@
              x:Class="SecondTry.PageFile">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="перешли на новую страницу"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" x:Name="Label" />
+            <Button Text="Назад" x:Name="BackButon" Clicked="BackButtonClick"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

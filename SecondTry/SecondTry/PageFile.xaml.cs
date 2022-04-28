@@ -16,5 +16,10 @@ namespace SecondTry
         {
             InitializeComponent();
         }
+
+        private async void BackButtonClick(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
+        }
     }
 }
