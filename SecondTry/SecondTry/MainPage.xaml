@@ -24,6 +24,8 @@
         <Button x:Name="button2" Text="Ну попробуй?" FontSize="Large" BorderWidth="1"
         HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
         Clicked="OnButton2Clicked" />
+
+        <Button x:Name="NewPageButton" Text="Открыть новую страничку" FontSize ="Large" BorderWidth="1" Clicked="NewPageButtonClick"></Button>
     </StackLayout>
 
 </ContentPage>
