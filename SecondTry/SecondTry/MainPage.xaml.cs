@@ -21,7 +21,7 @@ namespace SecondTry
             button.Text = "Все пиздец";
             button.BackgroundColor = Color.Green;
             this.BackgroundColor = Color.Blue;
-            label1.Text = "Залупа";
+            lb.Text = "Залупа";
         }
 
         private void OnButton2Clicked(object sender, System.EventArgs e)
