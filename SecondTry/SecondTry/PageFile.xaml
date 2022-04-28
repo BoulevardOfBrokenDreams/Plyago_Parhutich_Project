@@ -4,10 +4,11 @@
              x:Class="SecondTry.PageFile">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="перешли на новую страницу"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" x:Name="Label" />
-            <Button Text="Назад" x:Name="BackButon" Clicked="BackButtonClick"></Button>
+            <Label x:Name="LabelWithText" Text="сука" VerticalOptions="StartAndExpand"/>
+
+            <Button Text="Назад" x:Name="BackButon" Clicked="BackButtonClick"/>
+
+            <Button Text="Открыть файл" x:Name="OpenFileButton" Clicked="OpenFileButtonClick"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
