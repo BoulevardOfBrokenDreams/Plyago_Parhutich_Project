@@ -2,12 +2,25 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SecondTry.MainPage">
-
+    
     <StackLayout>
+        <Label Text="Добро пожаловать!" HorizontalOptions="Center" class="zxc" x:Name="label1"></Label>
+        <Label FontSize="10" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Добро пожаловать!\n" TextColor="Green"/>
+                        <Span Text="Добро пожаловать!\n" TextColor="Yellow"/>
+                        <Span Text="Добро пожаловать!\n" TextColor="Blue"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        
         <Button Text = "Нажми!" FontSize = "Large" BorderWidth="1" Padding="100"  
         HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
         Clicked="OnButton1Clicked" />
-
+        
         <Button Text="Ну попробуй?" FontSize="Large" BorderWidth="1"
         HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
         Clicked="OnButton2Clicked" />
