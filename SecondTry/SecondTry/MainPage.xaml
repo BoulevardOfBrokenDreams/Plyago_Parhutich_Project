@@ -8,7 +8,7 @@
         HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
         Clicked="OnButton1Clicked" />
 
-        <Button  FontSize="Large" BorderWidth="1"
+        <Button Text="Ну попробуй?" FontSize="Large" BorderWidth="1"
         HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
         Clicked="OnButton2Clicked" />
     </StackLayout>
