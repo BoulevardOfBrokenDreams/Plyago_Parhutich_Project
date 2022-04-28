@@ -10,7 +10,7 @@ namespace SecondTry
         {
             InitializeComponent();
 
-            MainPage = new NewPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

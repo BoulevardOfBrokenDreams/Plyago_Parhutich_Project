@@ -14,5 +14,12 @@ namespace SecondTry
         {
             InitializeComponent();
         }
+        private void OnButtonClicked(object sender, System.EventArgs e)
+        {
+            Button button = (Button)sender;
+            button.Text = "Все пиздец";
+            button.BackgroundColor = Color.Green;
+            this.BackgroundColor = Color.Blue;
+        }
     }
 }
