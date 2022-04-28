@@ -4,7 +4,7 @@
              x:Class="SecondTry.MainPage">
 
     <StackLayout>
-        <Button Text = "Нажми!" FontSize="Large" BorderWidth="1"
+        <Button Text = "Нажми!" FontSize = "Large" BorderWidth="1" Padding="100"  
         HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
         Clicked="OnButtonClicked" />
     </StackLayout>
