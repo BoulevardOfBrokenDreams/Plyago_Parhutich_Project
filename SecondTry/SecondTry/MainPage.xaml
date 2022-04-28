@@ -4,13 +4,14 @@
              x:Class="SecondTry.MainPage">
 
     <StackLayout>
-        <Button Text = "Нажми!" FontSize = "Large" BorderWidth="1" Padding="100"  
+        <Label x:Name="lb" AnchorX="10" AnchorY="20"/>
+        <Button x:Name = "button1" Text = "Нажми!" FontSize = "Large" BorderWidth="1" Padding="100"  
         HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
         Clicked="OnButton1Clicked" />
 
-        <Button Text="Ну попробуй?" FontSize="Large" BorderWidth="1"
+        <Button x:Name = "button2" Text="Ну попробуй?" FontSize="Large" BorderWidth="1"
         HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
-        Clicked="OnButton2Clicked" />
+        Clicked="Button2Click" />
     </StackLayout>
 
 </ContentPage>

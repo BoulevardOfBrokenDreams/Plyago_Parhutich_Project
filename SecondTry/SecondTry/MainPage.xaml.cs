@@ -28,6 +28,14 @@ namespace SecondTry
             button.Text = "ЖМИ";
             button.BackgroundColor = Color.Yellow;
             this.BackgroundColor = Color.Red;
+            
+        }
+
+        private void Button2Click(object sender, System.EventArgs e)
+        {
+            button1.Text = "Чмо";
+            button2.Text = "Пидр";
+            lb.Text = "писька";
         }
     }
 }
