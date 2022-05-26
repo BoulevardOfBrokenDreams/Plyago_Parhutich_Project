@@ -21,6 +21,7 @@ namespace SecondTry
             Button button = (Button)sender;
             Page page = new PageFile(button.Text);
             await Navigation.PushAsync(page);
+            
         }
     }
 }
