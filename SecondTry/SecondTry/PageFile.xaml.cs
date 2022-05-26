@@ -18,6 +18,7 @@ namespace SecondTry
             string[] Lessons;
             
             InitializeComponent();
+            this.BackgroundColor = Color.White;
 
             switch (dayOfWeek)
             {
