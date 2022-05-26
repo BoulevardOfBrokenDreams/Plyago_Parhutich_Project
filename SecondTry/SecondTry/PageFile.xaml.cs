@@ -12,9 +12,17 @@ namespace SecondTry
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PageFile : ContentPage
     {
-        public PageFile()
+        public PageFile(string dayOfWeek)
         {
+            string dayName;
+            string[] Lessons;
+
             InitializeComponent();
+            switch (dayOfWeek)
+            {
+                case "Monday": 
+
+            }
         }
 
         private void OpenFileButtonClick(object sender, EventArgs e)
