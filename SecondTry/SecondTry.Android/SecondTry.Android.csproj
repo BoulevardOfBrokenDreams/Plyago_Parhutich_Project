@@ -95,8 +95,5 @@
   <ItemGroup>
     <AndroidAsset Include="Assets\Monday.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\GSUicon.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
