@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SecondTry.MainPage" 
-             BackgroundImageSource="GSUicon.png">
+             BackgroundImageSource="Plague.jpg">
 
     <StackLayout Orientation="Vertical" Margin="0, 450, 0, 0">
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
