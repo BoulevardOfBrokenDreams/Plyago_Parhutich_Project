@@ -4,28 +4,13 @@
              x:Class="SecondTry.MainPage">
     
     <StackLayout>
-        <Label Text="Добро пожаловать!" HorizontalOptions="Center" class="zxc" x:Name="label1"></Label>
-        <Label FontSize="10" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Добро пожаловать!" TextColor="Green"/>
-                        <Span Text="Добро пожаловать!" TextColor="Yellow"/>
-                        <Span Text="Добро пожаловать!" TextColor="Blue"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-        
-        <Button x:Name="button1" Text = "Нажми!" FontSize = "Large" BorderWidth="1" Padding="100"  
-        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
-        Clicked="OnButton1Clicked" />
-        
-        <Button x:Name="button2" Text="Ну попробуй?" FontSize="Large" BorderWidth="1"
-        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
-        Clicked="OnButton2Clicked" />
-
-        <Button x:Name="NewPageButton" Text="Открыть новую страничку" FontSize ="Large" BorderWidth="1" Clicked="NewPageButtonClick"></Button>
+        <Button Text="Понедельник" Padding="10, 10, 10, 10" x:Name="MondayButton"></Button>
+        <Button Text="Вторник" Padding="10, 10, 10, 10" x:Name="TuesdayButton"></Button>
+        <Button Text="Среда" Padding="10, 10, 10, 10" x:Name="WednesdayButton"></Button>
+        <Button Text="Четверг" Padding="10, 10, 10, 10" x:Name="ThursdayButton"></Button>
+        <Button Text="Пятница" Padding="10, 10, 10, 10" x:Name="FridayButton"></Button>
+        <Button Text="Суббота" Padding="10, 10, 10, 10" x:Name="SaturdayButton"></Button>
+        <Button Text="Воскресение" Padding="10, 10, 10, 10" x:Name="SundayButton"></Button>
     </StackLayout>
 
 </ContentPage>
