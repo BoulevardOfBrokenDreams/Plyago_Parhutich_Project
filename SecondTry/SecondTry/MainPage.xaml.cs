@@ -12,6 +12,7 @@ namespace SecondTry
     {
         public MainPage()
         {
+            BackgroundColor = Color.White;
             InitializeComponent();
         }
         //when the days are cold
