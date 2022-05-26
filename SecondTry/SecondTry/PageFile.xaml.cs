@@ -64,6 +64,7 @@ namespace SecondTry
                     fourth.Text = "Иностранный язык (ф)";
                     break;
             }
+            backButton.Text = "Назад";
         }
 
         
