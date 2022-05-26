@@ -2,13 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SecondTry.PageFile">
-    <ContentPage.Content>
+    <StackLayout>
         <StackLayout>
-            <Label x:Name="LabelWithText" Text="сука" VerticalOptions="StartAndExpand"/>
-
-            <Button Text="Назад" x:Name="BackButon" Clicked="BackButtonClick"/>
-
-            <Button Text="Открыть файл" x:Name="OpenFileButton" Clicked="OpenFileButtonClick"/>
+            <Label x:Name="DayOfWeek"></Label>
         </StackLayout>
-    </ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="first"></Label>
+            <Label x:Name="second"></Label>
+            <Label x:Name="third"></Label>
+            <Label x:Name="fourth"></Label>
+        </StackLayout>
+        <StackLayout>
+            <Button x:Name="backButton" Clicked="BackButtonClick"></Button>
+        </StackLayout>
+    </StackLayout>
 </ContentPage>

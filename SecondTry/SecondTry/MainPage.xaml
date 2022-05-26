@@ -10,7 +10,6 @@
         <Button Text="Четверг" Padding="10, 10, 10, 10" x:Name="ThursdayButton"></Button>
         <Button Text="Пятница" Padding="10, 10, 10, 10" x:Name="FridayButton"></Button>
         <Button Text="Суббота" Padding="10, 10, 10, 10" x:Name="SaturdayButton"></Button>
-        <Button Text="Воскресение" Padding="10, 10, 10, 10" x:Name="SundayButton"></Button>
     </StackLayout>
 
 </ContentPage>
