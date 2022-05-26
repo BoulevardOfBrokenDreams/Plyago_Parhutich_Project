@@ -18,6 +18,7 @@ namespace SecondTry
             string[] Lessons;
             
             InitializeComponent();
+            this.BackgroundColor = Color.White;
 
             switch (dayOfWeek)
             {
@@ -64,6 +65,7 @@ namespace SecondTry
                     fourth.Text = "Иностранный язык (ф)";
                     break;
             }
+            backButton.Text = "Назад";
         }
 
         
