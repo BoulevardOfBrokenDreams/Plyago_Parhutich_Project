@@ -16,30 +16,11 @@ namespace SecondTry
         }
         //when the days are cold
         //and the cards all fold
-        private void OnButton1Clicked(object sender, System.EventArgs e)
+        private async void OnButtonClicked(object sender, System.EventArgs e)
         {
             Button button = (Button)sender;
-            button.Text = "Все пиздец";
-            button.BackgroundColor = Color.Green;
-            BackgroundColor = Color.Blue;
-            label1.Text = "Залупа";
-        }
-
-        private void OnButton2Clicked(object sender, System.EventArgs e)
-        {
-            Button button = (Button)sender;
-            button.Text = "ЖМИ";
-            button.BackgroundColor = Color.Yellow;
-            BackgroundColor = Color.Red;
-            button1.Text = "Чмо";
-            button2.Text = "Пидр";
-            label1.Text = "писька";
-        }
-
-        private async void NewPageButtonClick(object sender, System.EventArgs e)
-        {
-            await Navigation.PushModalAsync(new PageFile());
-            
+            Page page = new PageFile(button.Text);
+            await Navigation.PushAsync(page);
         }
     }
 }
