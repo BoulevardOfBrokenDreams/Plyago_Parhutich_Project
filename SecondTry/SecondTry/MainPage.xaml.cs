@@ -15,6 +15,7 @@ namespace SecondTry
             InitializeComponent();
         }
         //when the days are cold
+        //and the cards all fold
         private void OnButton1Clicked(object sender, System.EventArgs e)
         {
             Button button = (Button)sender;
