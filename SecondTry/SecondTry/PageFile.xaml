@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SecondTry.PageFile">
+             x:Class="SecondTry.PageFile"
+             BackgroundImageSource="Plague.jpg">
     <StackLayout>
         <StackLayout>
-            <Label x:Name="DayOfWeek"></Label>
+            <Label x:Name="DayOfWeek" TextColor="White" FontSize="30"></Label>
         </StackLayout>
         <StackLayout>
-            <Label x:Name="first"></Label>
-            <Label x:Name="second"></Label>
-            <Label x:Name="third"></Label>
-            <Label x:Name="fourth"></Label>
+            <Label x:Name="first" TextColor="White"></Label>
+            <Label x:Name="second" TextColor="White"></Label>
+            <Label x:Name="third" TextColor="White"></Label>
+            <Label x:Name="fourth" TextColor="White"></Label>
         </StackLayout>
         <StackLayout>
             <Button x:Name="backButton" Clicked="BackButtonClick"></Button>
