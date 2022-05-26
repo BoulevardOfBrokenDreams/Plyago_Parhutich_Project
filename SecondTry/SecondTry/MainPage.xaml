@@ -9,9 +9,9 @@
             <Label.FormattedText>
                 <FormattedString>
                     <FormattedString.Spans>
-                        <Span Text="Добро пожаловать!\n" TextColor="Green"/>
-                        <Span Text="Добро пожаловать!\n" TextColor="Yellow"/>
-                        <Span Text="Добро пожаловать!\n" TextColor="Blue"/>
+                        <Span Text="Добро пожаловать!" TextColor="Green"/>
+                        <Span Text="Добро пожаловать!" TextColor="Yellow"/>
+                        <Span Text="Добро пожаловать!" TextColor="Blue"/>
                     </FormattedString.Spans>
                 </FormattedString>
             </Label.FormattedText>

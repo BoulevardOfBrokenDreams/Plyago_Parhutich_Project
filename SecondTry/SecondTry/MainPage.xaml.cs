@@ -14,7 +14,7 @@ namespace SecondTry
         {
             InitializeComponent();
         }
-
+        //when the days are cold
         private void OnButton1Clicked(object sender, System.EventArgs e)
         {
             Button button = (Button)sender;
