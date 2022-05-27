@@ -3,19 +3,57 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SecondTry.PageFile"
              BackgroundImageSource="Plague.jpg">
-    <StackLayout Orientation="Vertical" HorizontalOptions="Center" Spacing="0">
-        <StackLayout HorizontalOptions="Center" Margin="0, 300, 0, 0">
-            <Label x:Name="DayOfWeek" TextColor="White" FontSize="40" Padding="0" Margin="0"></Label>
-        </StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <StackLayout Orientation="Vertical">
-                <Label x:Name="first" TextColor="White"></Label>
-                <Label x:Name="second" TextColor="White"></Label>
-                <Label x:Name="third" TextColor="White"></Label>
-                <Label x:Name="fourth" TextColor="White"></Label>
+    <StackLayout Orientation="Vertical" HorizontalOptions="Center" Spacing="0" Margin="0, 200, 0, 0">
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" Spacing="0">
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" Spacing="0">
+                <StackLayout Spacing="0" Padding="0, 20, 20, 20">
+                    <Label x:Name="DayOfWeek" TextColor="White" FontSize="40" Padding="0" Margin="0"></Label>
+                </StackLayout>
+                <StackLayout Spacing="0" Orientation="Vertical">
+                    <StackLayout Spacing="0" Orientation="Horizontal">
+                        <StackLayout Orientation="Vertical" Spacing="0" Padding="5">
+                            <Label Text="9.00" TextColor="WhiteSmoke"></Label>
+                            <Label Text="10.25" TextColor="WhiteSmoke"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" Spacing="0"  Padding="5">
+                            <Label x:Name="first" TextColor="White"></Label>
+                            <Label x:Name="prepName1" TextColor="White"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Orientation="Horizontal">
+                        <StackLayout Orientation="Vertical" Spacing="0" Padding="5">
+                            <Label Text="10.40" TextColor="WhiteSmoke"></Label>
+                            <Label Text="12.05" TextColor="WhiteSmoke"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" Spacing="0"  Padding="5">
+                            <Label x:Name="second" TextColor="White"></Label>
+                            <Label x:Name="prepName2" TextColor="White"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Orientation="Horizontal">
+                        <StackLayout Orientation="Vertical" Spacing="0" Padding="5">
+                            <Label Text="12.25" TextColor="WhiteSmoke"></Label>
+                            <Label Text="13.50" TextColor="WhiteSmoke"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" Spacing="0" Padding="5">
+                            <Label x:Name="third" TextColor="White"></Label>
+                            <Label x:Name="prepName3" TextColor="White"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Spacing="0" Orientation="Horizontal">
+                        <StackLayout Orientation="Vertical" Spacing="0"  Padding="5">
+                            <Label Text="14.20" TextColor="WhiteSmoke"></Label>
+                            <Label Text="15.45" TextColor="WhiteSmoke"></Label>
+                        </StackLayout>
+                        <StackLayout Spacing="0" Orientation="Vertical" Padding="5">
+                            <Label x:Name="fourth" TextColor="White"></Label>
+                            <Label x:Name="prepName4" TextColor="White"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
             </StackLayout>
-            <StackLayout>
-                <Button x:Name="backButton" Clicked="BackButtonClick"></Button>
+            <StackLayout Spacing="0" Margin="0, 100, 0, 0">
+                <Button x:Name="backButton" Clicked="BackButtonClick" BackgroundColor="OrangeRed"></Button>
             </StackLayout>
         </StackLayout>
     </StackLayout>
