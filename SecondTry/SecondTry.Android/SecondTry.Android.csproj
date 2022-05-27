@@ -84,9 +84,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Plague.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\Plague.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SecondTry\SecondTry.csproj">
