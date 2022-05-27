@@ -28,6 +28,10 @@ namespace SecondTry
                     second.Text = "МД и СУБД";
                     third.Text = "Операционные системы";
                     fourth.Text = "Основы Web-разработки";
+                    prepName1.Text = "";
+                    prepName2.Text = "Короткевич В.А.";
+                    prepName3.Text = "Писпанен М.А.";
+                    prepName4.Text = "Писпанен М.А.";
                     break;
                 case "Вторник":
                     DayOfWeek.Text = "Вторник";
@@ -35,6 +39,10 @@ namespace SecondTry
                     second.Text = "Криптографические методы";
                     third.Text = "Физическая культура";
                     fourth.Text = "Основы идеологии белорусского государства";
+                    prepName1.Text = "Мурашко В.И.";
+                    prepName2.Text = "Мурашко В.И.";
+                    prepName3.Text = "Корпус №7";
+                    prepName4.Text = "Денисенко Н.В.";
                     break;
                 case "Среда":
                     DayOfWeek.Text = "Среда";
@@ -42,6 +50,10 @@ namespace SecondTry
                     second.Text = "Компьютерные сети";
                     third.Text = "Операционные системы";
                     fourth.Text = "Политология";
+                    prepName1.Text = "Марченко Л.Н.";
+                    prepName2.Text = "Демуськов А.Б.";
+                    prepName3.Text = "Клименко А.В.";
+                    prepName4.Text = "Курбатов В.Н.";
                     break;
                 case "Четверг":
                     DayOfWeek.Text = "Четверг";
@@ -49,6 +61,10 @@ namespace SecondTry
                     second.Text = "Физическая культура";
                     third.Text = "";
                     fourth.Text = "";
+                    prepName1.Text = "Маслович С.Ф.";
+                    prepName2.Text = "Корпус №7";
+                    prepName3.Text = "";
+                    prepName4.Text = "";
                     break;
                 case "Пятница":
                     DayOfWeek.Text = "Пятница";
@@ -56,6 +72,10 @@ namespace SecondTry
                     second.Text = "МД и СУБД";
                     third.Text = "Технологии программирования";
                     fourth.Text = "Технологии программирования";
+                    prepName1.Text = "Демуськов А.Б.";
+                    prepName2.Text = "Короткевич Л.И.";
+                    prepName3.Text = "Прохоренко В.А.";
+                    prepName4.Text = "Прохоренко В.А.";
                     break;
                 case "Суббота":
                     DayOfWeek.Text = "Суббота";
@@ -63,6 +83,10 @@ namespace SecondTry
                     second.Text = "Проектирование программных систем";
                     third.Text = "Проектирование программных систем";
                     fourth.Text = "Иностранный язык (ф)";
+                    prepName1.Text = "Караваева Е.М.";
+                    prepName2.Text = "Осипенко Н.Б.";
+                    prepName3.Text = "Гурский Д.С.";
+                    prepName4.Text = "Чернякова Е.А";
                     break;
             }
             backButton.Text = "Назад";

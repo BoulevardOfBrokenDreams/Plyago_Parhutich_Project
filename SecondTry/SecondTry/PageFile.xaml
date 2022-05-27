@@ -53,7 +53,7 @@
                 </StackLayout>
             </StackLayout>
             <StackLayout Spacing="0" Margin="0, 100, 0, 0">
-                <Button x:Name="backButton" Clicked="BackButtonClick" BackgroundColor="OrangeRed"></Button>
+                <Button x:Name="backButton" Clicked="BackButtonClick" BackgroundColor="OrangeRed" WidthRequest="250" Font="17"></Button>
             </StackLayout>
         </StackLayout>
     </StackLayout>
