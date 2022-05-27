@@ -4,30 +4,33 @@
              x:Class="SecondTry.MainPage" 
              BackgroundImageSource="Plague.jpg">
 
-    <StackLayout Orientation="Vertical" Margin="0, 450, 0, 0">
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-            <Button Text="Понедельник" Padding="30" x:Name="MondayButton" WidthRequest="200"
+    <StackLayout Orientation="Vertical">
+        <StackLayout Margin="0, 170, 0, 0" Orientation="Horizontal" HorizontalOptions="Center">
+            <Label Text="Расписание занятий" FontSize="30" TextColor="WhiteSmoke" FontAttributes="Italic"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0, 180, 0, 0">
+            <Button Text="Понедельник" Padding="30" x:Name="MondayButton" WidthRequest="190"
                     Clicked="OnButtonClicked" TextColor="Black" Margin="0"
-                    BackgroundColor="OrangeRed" BorderWidth="1" BorderColor="Gray"></Button>
+                    BackgroundColor="OrangeRed" BorderWidth="1" BorderColor="Gray" FontSize="17"></Button>
             <Button Text="Вторник" Padding="30" WidthRequest="190" x:Name="TuesdayButton" 
                     Clicked="OnButtonClicked" TextColor="Black" Margin="0"
-                    BackgroundColor="OrangeRed" BorderWidth="1" BorderColor="Gray"></Button>
+                    BackgroundColor="OrangeRed" BorderWidth="1" BorderColor="Gray" FontSize="17"></Button>
         </StackLayout>
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
             <Button Text="Среда" Padding="30" x:Name="WednesdayButton" 
-                    Clicked="OnButtonClicked" TextColor="Black" Margin="0" WidthRequest="200"
-                    BackgroundColor="OrangeRed" BorderWidth="1" BorderColor="Gray"></Button>
+                    Clicked="OnButtonClicked" TextColor="Black" Margin="0" WidthRequest="190"
+                    BackgroundColor="OrangeRed" BorderWidth="1" BorderColor="Gray" FontSize="17"></Button>
             <Button Text="Четверг" Padding="30" x:Name="ThursdayButton" 
                     Clicked="OnButtonClicked" TextColor="Black" Margin="0" WidthRequest="190"
-                    BackgroundColor="OrangeRed" BorderWidth="1" BorderColor="Gray"></Button>
+                    BackgroundColor="OrangeRed" BorderWidth="1" BorderColor="Gray" FontSize="17"></Button>
         </StackLayout>
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
             <Button Text="Пятница" Padding="30" x:Name="FridayButton"
-                    Clicked="OnButtonClicked" TextColor="Black" Margin="0" WidthRequest="200"
-                    BackgroundColor="OrangeRed" BorderWidth="1" BorderColor="Gray"></Button>
+                    Clicked="OnButtonClicked" TextColor="Black" Margin="0" WidthRequest="190"
+                    BackgroundColor="OrangeRed" BorderWidth="1" BorderColor="Gray" FontSize="17"></Button>
             <Button Text="Суббота" Padding="30" x:Name="SaturdayButton" 
                     Clicked="OnButtonClicked" TextColor="Black" Margin="0" WidthRequest="190"
-                    BackgroundColor="OrangeRed" BorderWidth="1" BorderColor="Gray"></Button>
+                    BackgroundColor="OrangeRed" BorderWidth="1" BorderColor="Gray" FontSize="17"></Button>
         </StackLayout>
     </StackLayout>
 
